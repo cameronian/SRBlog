@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 import '../stylesheets/application.scss';
-const images = require.context("../images",true);
+//const images = require.context("../images",true);
 
 import "@fortawesome/fontawesome-free/js/brands.js";
 import "@fortawesome/fontawesome-free/js/solid.js";
