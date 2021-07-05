@@ -1,0 +1,84 @@
+# Logfile created on 2021-07-05 10:50:44 +0800 by logger.rb/v1.2.7
+D, [2021-07-05T10:50:44.915434 #263984] DEBUG -- : version : /usr/bin/git version
+D, [2021-07-05T10:50:44.991331 #263984] DEBUG -- : System GIT version is 2.25.1. Min require version is 2.22
+D, [2021-07-05T10:50:45.010539 #263984] DEBUG -- : Status : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git status
+D, [2021-07-05T10:50:48.763794 #263984] DEBUG -- : version : /usr/bin/git version
+D, [2021-07-05T10:50:48.771421 #263984] DEBUG -- : System GIT version is 2.25.1. Min require version is 2.22
+D, [2021-07-05T10:50:48.772236 #263984] DEBUG -- : Modified files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=M
+D, [2021-07-05T10:50:48.775413 #263984] DEBUG -- : Conflicted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=U
+D, [2021-07-05T10:50:48.778481 #263984] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files --others --exclude-standard --directory
+D, [2021-07-05T10:50:48.782171 #263984] DEBUG -- : Deleted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files -d
+D, [2021-07-05T10:50:48.785085 #263984] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --cached
+D, [2021-07-05T10:50:48.788407 #263984] DEBUG -- : Current branch : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git branch --show-current
+D, [2021-07-05T10:51:25.954596 #263984] DEBUG -- : Remove from git version control : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git rm --cached Gemfile.lock
+D, [2021-07-05T10:51:25.995899 #263984] DEBUG -- : Workspace root: cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git rev-parse --show-toplevel
+D, [2021-07-05T10:51:25.998818 #263984] DEBUG -- : .gitignore file updated with line 'Gemfile.lock'
+D, [2021-07-05T10:51:26.000362 #263984] DEBUG -- : Modified files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=M
+D, [2021-07-05T10:51:26.002673 #263984] DEBUG -- : Conflicted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=U
+D, [2021-07-05T10:51:26.005427 #263984] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files --others --exclude-standard --directory
+D, [2021-07-05T10:51:26.008612 #263984] DEBUG -- : Deleted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files -d
+D, [2021-07-05T10:51:26.011501 #263984] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --cached
+D, [2021-07-05T10:51:26.016198 #263984] DEBUG -- : Current branch : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git branch --show-current
+D, [2021-07-05T10:51:55.885812 #263984] DEBUG -- : Modified files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=M
+D, [2021-07-05T10:51:55.891543 #263984] DEBUG -- : Conflicted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=U
+D, [2021-07-05T10:51:55.893947 #263984] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files --others --exclude-standard --directory
+D, [2021-07-05T10:51:55.897602 #263984] DEBUG -- : Deleted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files -d
+D, [2021-07-05T10:51:55.900047 #263984] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --cached
+D, [2021-07-05T10:51:55.902711 #263984] DEBUG -- : Current branch : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git branch --show-current
+D, [2021-07-05T10:51:57.092096 #263984] DEBUG -- : Local branch : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git branch
+D, [2021-07-05T10:51:57.095206 #263984] DEBUG -- : Stash list : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git stash list
+D, [2021-07-05T10:51:57.771383 #263984] DEBUG -- : Local branch : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git branch
+D, [2021-07-05T10:51:57.774887 #263984] DEBUG -- : Stash list : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git stash list
+D, [2021-07-05T10:51:57.779987 #263984] DEBUG -- : List tags : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git tag
+D, [2021-07-05T10:51:58.527055 #263984] DEBUG -- : List tags : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git tag
+D, [2021-07-05T10:51:58.531467 #263984] DEBUG -- : Logs : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git log -n 50 --oneline --pretty=format:"%H | %ad | %an,%ce | %s | %b | %N" 
+D, [2021-07-05T10:51:59.245901 #263984] DEBUG -- : Logs : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git log -n 50 --oneline --pretty=format:"%H | %ad | %an,%ce | %s | %b | %N" 
+D, [2021-07-05T10:51:59.250534 #263984] DEBUG -- : Current branch : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git branch --show-current
+D, [2021-07-05T10:51:59.254813 #263984] DEBUG -- : Remote config : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git remote -vv
+D, [2021-07-05T10:52:01.531801 #263984] DEBUG -- : Current branch : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git branch --show-current
+D, [2021-07-05T10:52:01.534336 #263984] DEBUG -- : Remote config : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git remote -vv
+D, [2021-07-05T10:52:01.536776 #263984] DEBUG -- : Modified files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=M
+D, [2021-07-05T10:52:01.538994 #263984] DEBUG -- : Conflicted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=U
+D, [2021-07-05T10:52:01.541177 #263984] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files --others --exclude-standard --directory
+D, [2021-07-05T10:52:01.543896 #263984] DEBUG -- : Deleted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files -d
+D, [2021-07-05T10:52:01.546226 #263984] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --cached
+D, [2021-07-05T10:52:01.550649 #263984] DEBUG -- : Current branch : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git branch --show-current
+D, [2021-07-05T10:52:37.214765 #263984] DEBUG -- : Modified files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=M
+D, [2021-07-05T10:52:37.223091 #263984] DEBUG -- : Conflicted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=U
+D, [2021-07-05T10:52:37.225571 #263984] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files --others --exclude-standard --directory
+D, [2021-07-05T10:52:37.228728 #263984] DEBUG -- : Deleted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files -d
+D, [2021-07-05T10:52:37.231651 #263984] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --cached
+D, [2021-07-05T10:52:37.235125 #263984] DEBUG -- : Current branch : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git branch --show-current
+D, [2021-07-05T12:21:53.099281 #272126] DEBUG -- : version : /usr/bin/git version
+D, [2021-07-05T12:21:53.111990 #272126] DEBUG -- : System GIT version is 2.25.1. Min require version is 2.22
+D, [2021-07-05T12:21:53.113406 #272126] DEBUG -- : Modified files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=M
+D, [2021-07-05T12:21:53.116798 #272126] DEBUG -- : Conflicted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --diff-filter=U
+D, [2021-07-05T12:21:53.120303 #272126] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files --others --exclude-standard --directory
+D, [2021-07-05T12:21:53.124550 #272126] DEBUG -- : Deleted files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git ls-files -d
+D, [2021-07-05T12:21:53.127898 #272126] DEBUG -- : New Files : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git diff --name-only --cached
+D, [2021-07-05T12:21:53.131479 #272126] DEBUG -- : Current branch : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git branch --show-current
+D, [2021-07-05T12:22:27.050091 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add app/
+D, [2021-07-05T12:22:27.279984 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add bin/
+D, [2021-07-05T12:22:27.385888 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add config/
+D, [2021-07-05T12:22:27.473837 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add db/
+D, [2021-07-05T12:22:27.486615 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add lib/
+D, [2021-07-05T12:22:27.498749 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add log/
+D, [2021-07-05T12:22:27.510288 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add public/
+D, [2021-07-05T12:22:27.524161 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add storage/
+D, [2021-07-05T12:22:27.530466 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add test/
+D, [2021-07-05T12:22:27.614037 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add tmp/
+D, [2021-07-05T12:22:27.620842 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add vendor/
+D, [2021-07-05T12:22:27.626112 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add weblog/
+D, [2021-07-05T12:22:27.631999 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add .browserslistrc
+D, [2021-07-05T12:22:27.641138 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add .gitattributes
+D, [2021-07-05T12:22:27.645772 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add .gitignore
+D, [2021-07-05T12:22:27.649242 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add .ruby-version
+D, [2021-07-05T12:22:27.653070 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add Capfile
+D, [2021-07-05T12:22:27.656387 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add Gemfile
+D, [2021-07-05T12:22:27.660280 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add Gemfile.lock
+D, [2021-07-05T12:22:27.663870 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add Procfile
+D, [2021-07-05T12:22:27.667665 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add README.md
+D, [2021-07-05T12:22:27.670785 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add Rakefile
+D, [2021-07-05T12:22:27.673971 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add babel.config.js
+D, [2021-07-05T12:22:27.677315 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add config.ru
+D, [2021-07-05T12:22:27.680753 #272126] DEBUG -- : Add : cd /mnt/Vault/08.Dev/01.Workspaces/securerandom-bytes/SRBlog && /usr/bin/git add git_cli.log

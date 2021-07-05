@@ -1,0 +1,16 @@
+
+
+//@import "bootswatch/dist/flatly/variables";
+@import "bootstrap";
+//@import "bootswatch/dist/flatly/bootswatch";
+
+//@import "@fortawesome/fontawesome-free/scss/brands.scss";
+//@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/css/fontawesome.css";
+
+@import "./styles.css";
+
+.footer-content {
+  margin-top: 8px;
+  background: #000000;
+}

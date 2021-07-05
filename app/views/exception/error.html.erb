@@ -1,0 +1,20 @@
+
+<!-- Page Header-->
+<header class="masthead" style="background-image: url('<%= image_path "background.jpg" %>')">
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="site-heading">
+          <h1>! MAYDAY !</h1>
+          <span class="subheading">Exception Caught!</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="alert alert-danger text-center" role="alert">
+  Hi visitor at <%= request.remote_ip %>, it seems server experiencing some error. Please be patient and come back check up with us later!
+</div>
+
+
