@@ -1,4 +1,3 @@
-web_server: ENV=Production bin/rails server -p 3000 -b 0.0.0.0
-assets: bin/webpack-dev-server
+web_server: bin/rails server -p 3000 -b 0.0.0.0 -e production
 job_server: bundle exec sidekiq
 
