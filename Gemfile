@@ -65,7 +65,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'redcarpet'
-gem 'sidekiq'
-gem 'activejob-status'
+#gem 'sidekiq'
+#gem 'activejob-status'
 #gem 'rails-letsencrypt'
 

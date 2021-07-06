@@ -10,3 +10,5 @@ end
 require 'fileutils'
 FileUtils.mkdir_p(SRBlog::Config[:published_url]) if not File.exist?(SRBlog::Config[:published_url])
 
+#RegisterPostJob.perform_later
+

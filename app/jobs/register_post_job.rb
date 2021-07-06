@@ -1,6 +1,6 @@
 class RegisterPostJob < ApplicationJob
   queue_as :default
-  include ActiveJob::Status
+  #include ActiveJob::Status
 
   after_perform do |job|
     # start again after 5 minutes
