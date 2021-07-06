@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 set :application, "SRBlog"
-set :repo_url, "git@github.com:cameronian/SRBlog.git"
+set :repo_url, "git@github-ian:cameronian/SRBlog.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
