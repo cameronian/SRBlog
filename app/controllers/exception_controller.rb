@@ -7,4 +7,8 @@ class ExceptionController < ApplicationController
   def error
     
   end
+
+  def not_found
+    
+  end
 end
