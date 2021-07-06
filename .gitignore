@@ -42,3 +42,4 @@ yarn-debug.log*
 # ignore folder uploads
 /public/uploads
 weblog/
+git_cli.log
