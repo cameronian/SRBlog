@@ -20,6 +20,13 @@ conf = YAML.load(File.read(File.join(currDir,"config","srblog.yml")), symbolize_
 source = conf[:source_url]
 pubPath = File.join(currDir,"weblog")
 
+tags_rec = File.join(currDir,"tag_posts")
+if File.exist?(tags_rec)
+  tagPosts = YAML.load(File.read(tags_rec))
+else
+  tagPosts = { }
+end
+
 source.each do |src|
 
   pend = File.join(src,"*.brec")
@@ -71,7 +78,8 @@ source.each do |src|
           FileUtils.rm(sp)
         end
 
-        outFile = File.join(pubPath,"#{po[:id]}.md")
+        outFileName = "#{po[:id]}.md"
+        outFile = File.join(pubPath,outFileName)
         File.open(outFile,"wb") do |pff|
           pff.write YAML.dump(po)
         end
@@ -82,6 +90,17 @@ source.each do |src|
         soutFile = "#{outFile}.snippet"
         File.open(soutFile,"wb") do |pff|
           pff.write YAML.dump(so)
+        end
+
+        tagPosts.each do |k,v|
+          v.delete(outFileName) if v.include?(outFileName)
+        end
+
+        if not js["tags"].nil?
+          js["tags"].each do |t|
+            tagPosts[t] = [] if not tagPosts.keys.include?(t)
+            tagPosts[t] << outFileName if not tagPosts[t].include?(outFileName)
+          end
         end
 
         FileUtils.mv("#{pf}","#{pf}.bak")
@@ -98,6 +117,10 @@ source.each do |src|
 
   logger.debug "File at '#{pend}' done processing"
 
+end
+
+File.open(tags_rec,"wb") do |f|
+  f.write YAML.dump(tagPosts)
 end
 
 
