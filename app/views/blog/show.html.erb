@@ -8,7 +8,7 @@
           <h2 class="subheading"><%= @target[:sub_title] %></h2>
           <span class="meta">
             Posted by
-            <a href="#!"><%= @target[:author] %></a>
+            <%= @target[:author] %>
             on <%= Time.at(@target[:created_at].to_i).strftime("%d %B %Y, %H:%M (%A)") %> </br>
             <span class="meta-last-updated">
               <%= " - Last updated at #{Time.at(@target[:updated_at].to_i).strftime("%d %B %Y, %H:%M - %A")} " if @target[:updated_at] != @target[:created_at] %>
