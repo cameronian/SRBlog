@@ -9,15 +9,16 @@ require 'fileutils'
 
 #require_relative "config/initializers/srblog"
 
-logger = Tlogger.new#('register_post.log')
+logger = Tlogger.new('register_post.log',10,10240000)
 
 currDir = File.dirname(__FILE__)
 
 start = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 logger.debug "Post publishing job started at : #{Time.now}"
 
-source = ["../packblog/packblog"]
-source = [source] if not source.is_a?(Array)
+conf = YAML.load(File.read(File.join(currDir,"config","srblog.yml")), symbolize_names: true)
+source = conf[:source_url]
+pubPath = File.join(currDir,"weblog")
 
 source.each do |src|
 
@@ -65,12 +66,12 @@ source.each do |src|
         po[:id] = createdAt.strftime("%y%m%d%H%M%S%L-#{js["pid"]}")
 
         # lets find out if there is already this post published before
-        searchPath = Dir.glob(File.join(currDir,"weblog","*-#{po[:id]}.md"))
+        searchPath = Dir.glob(File.join(pubPath,"*-#{po[:id]}.md"))
         searchPath.each do |sp|
           FileUtils.rm(sp)
         end
 
-        outFile = File.join(currDir,"weblog","#{po[:id]}.md")
+        outFile = File.join(pubPath,"#{po[:id]}.md")
         File.open(outFile,"wb") do |pff|
           pff.write YAML.dump(po)
         end
