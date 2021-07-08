@@ -1,0 +1,44 @@
+
+
+<!-- Page Header-->
+<header class="masthead" style="background-image: url('post-background.jpg')">
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="post-heading">
+          <h1>Posts by Tag</h1>
+          <h2 class="subheading"></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Tags Content-->
+<article class="mb-4">
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <%  r = Redcarpet::Render::HTML.new(prettify: true) %>
+        <% @mdp = Redcarpet::Markdown.new(r) %>
+        <% @snips.each do |po| %>
+          <% cont = YAML.load(File.read(po)) %>
+          <div class="post-preview">
+            <a href="<%= blog_show_path(id: cont[:id]) %>">
+              <h2 class="post-title"><%= cont[:title] %></h2>
+              <h3 class="post-subtitle"><%= cont[:sub_title] %></h3>
+            </a>
+            <p class="post-meta">
+            Posted by
+            <a href="#!"><%= cont[:author] %></a>
+            on <%= cont[:published].strftime("%d %B %Y, %H:%M - %A") %>
+          <%= "[ Last updated at #{Time.at(cont[:updated_at].to_i).strftime("%d %B %Y, %H:%M - %A")} ]" if cont[:updated_at] != cont[:created_at] %>
+            </p>
+          </div>
+          <!-- Divider-->
+          <hr class="my-4" />
+        <% end %>
+
+      </div>
+    </div>
+  </div>
+</article>
