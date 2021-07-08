@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'posts/tag'
   get 'contributor/ian'
   get 'contributor/index'
 
