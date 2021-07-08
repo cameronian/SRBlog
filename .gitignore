@@ -43,3 +43,4 @@ yarn-debug.log*
 /public/uploads
 weblog/
 git_cli.log
+register_post.log
