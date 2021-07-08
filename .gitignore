@@ -45,3 +45,4 @@ weblog/
 git_cli.log
 register_post.log
 config/srblog.yml
+tag_posts
