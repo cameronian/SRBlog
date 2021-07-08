@@ -12,6 +12,10 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
+import Bootstrap from "bootstrap";
+
+import '../stylesheets/application.scss';
+
 window.addEventListener('DOMContentLoaded', () => {
     let scrollPos = 0;
     const mainNav = document.getElementById('mainNav');
@@ -36,9 +40,6 @@ window.addEventListener('DOMContentLoaded', () => {
         scrollPos = currentTop;
     });
 });
-
-import '../stylesheets/application.scss';
-//const images = require.context("../images",true);
 
 import "@fortawesome/fontawesome-free/js/brands.js";
 import "@fortawesome/fontawesome-free/js/solid.js";
