@@ -58,5 +58,7 @@ set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, false #true  # Change to false when not using ActiveRecord
 
-append :linked_files, "config/master.key"
-append :linked_dirs, "log", "tmp/pids", "tmp/cache", "public/uploads"
+append :linked_files, "config/master.key", "config/srblog.yml", "register_post.sh", "tag_posts"
+append :linked_dirs, "log", "tmp/pids", "tmp/cache", "public/uploads", "weblog"
+
+
