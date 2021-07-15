@@ -69,3 +69,5 @@ gem 'redcarpet'
 #gem 'activejob-status'
 #gem 'rails-letsencrypt'
 
+gem 'addressable', '>= 2.8.0'
+
